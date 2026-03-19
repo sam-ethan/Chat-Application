@@ -1,0 +1,15 @@
+How to Use the Chat Application
+
+Install dependencies using npm install
+
+Start the server using node server.js (or your file name)
+
+Open browser and go to http://localhost:3000
+
+Enter your name and message to start chatting
+
+Upload images or videos to share media files
+
+Messages are broadcasted in real-time to all connected users
+
+Chat history is stored and displayed using MongoDB
