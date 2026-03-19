@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket.IO two way communication</title>
+</head>
+<body>
+    <h1>REAL TIME CHAT</h1>
+</hr>
+</hr>
+    <div id="ChatBox">
+        <label for="name"> Enter your name :</label>
+        <input type="text" id="name" placeholder="enter your name">
+        <label for="msg">Enter your message</label>
+        <input type="text" id="msg" placeholder="enter your msg">
+        <br>
+        <br>
+
+        <input type="file" id="media">
+        <button onclick="send()">send</button>
+    </div>
+    <script src="/socket.io/socket.io.js"> </script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+• app.use("/uploads", express.static(...)) → makes the uploads folder publicly accessible in the browser.
+
+• path.join(__dirname, "uploads") → safely combines the current folder path and "uploads" to create the correct file path.
+
+• Relative path → path based on the current location (example: "uploads/file.jpg").
+
+• Absolute path → full system path from root (example: C:/project/uploads/file.jpg).
+
+________________________________________________________________________________________________________
